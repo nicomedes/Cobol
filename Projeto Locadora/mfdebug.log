@@ -1,0 +1,40 @@
+
+NetExpress Exception Handler - 09/08/2011  20:17:35
+U:\Projeto VideoLocadora\MACK.exe caused an exception at address : 0x0043323E
+Exception type - EXCEPTION_ACCESS_VIOLATION on Read. Address 0x00000014
+
+Registers:
+
+	EAX 00000001	EBX 00000000
+	ECX 00000000	EDX 600953D4
+	DS  0023	ESI 00000000
+	ES  0023	EDI 00491C68
+	FS  003B	GS  0000
+	CS  001B	EIP 0043323E
+	SS  0023	ESP 0012FE10	EBP 00491728
+	Flags 00010202
+
+Error occurred in : U:\Projeto VideoLocadora\MACK.exe, loaded at 0x00400000
+
+COBOL call stack:
+
+	cobwin2	(obj program)
+	PGM11	(obj program)
+	PGM01	(obj program)
+	MACK	(obj program)
+
+Run-time : C:\Program Files\Micro Focus\Net Express 5.1\Base\BIN\CBLRTSS.DLL, loaded at 0x60000000
+
+	CompanyName Micro Focus
+	FileDescription Micro Focus 32-bit RTS
+	FileVersion 16.34
+	LegalCopyright Copyright (C) 1984-2008 Micro Focus (IP) Limited.
+	OriginalFileName cblrtss.dll
+	ProductName Net Express 5.1
+	ProductVersion 5.101.0074
+
+OS Information:
+
+Windows NT 6.1 (Build 7600: )
+CPU: Intel Pentium Model 23 step 10, 4 processors
+Available memory - 2097151 KB
